@@ -1,0 +1,65 @@
+.image img{
+    width:130px;
+    
+}
+.section{
+   
+    width:800px;
+    padding-right:30px;
+    padding-left:30px;
+    justify-content: center;
+    margin-top:70px;
+    margin-bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    gap:5px;
+    
+}
+.sab{
+    width:250px;
+    margin:0 10px;
+    margin-top:30px;
+    box-shadow:0 0 20px rgba(2,4,3, .1);
+    transition:1s;
+}
+.sab img{
+      border-radius:5px;
+      box-shadow:0 0 10px 10px ;
+      
+      
+}
+.sab:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.text1{
+    text-align:center;
+    color:#fff;
+   
+     transition:1s;
+}
+.text1:hover{
+    color:#8b0202;
+}
+.tag{
+   
+   
+    
+    text-align:center;
+    position: absolute;
+    visibility: hidden;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+
+}
+.sab:hover .tag{
+    visibility:visible;
+    
+     color:#fff;
+}
